@@ -65,7 +65,7 @@ public class Main extends Application {
                 writer.close();
                 System.out.println("File Written");
             } catch (IOException ex) {
-                throw new RuntimeException(ex);
+                System.out.println("Failed to write file");
             }
         });
 
