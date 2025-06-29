@@ -22,7 +22,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Random r = new Random();
 
-        primaryStage.setTitle("JavaFX App");
+        primaryStage.setTitle("Module 3 CT Option#1");
 
         //Create Menu
         Menu menu = new Menu("Menu");
