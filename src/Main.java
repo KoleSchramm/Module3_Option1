@@ -54,7 +54,7 @@ public class Main extends Application {
         //Menu Actions
         //Set textField text to local date and time
         menuItem1.setOnAction(e -> {
-            textField.setText(LocalDate.now().toString() + ", " + LocalTime.now().toString());
+            textField.setText("Date: " + LocalDate.now().toString() + ", Time: " + LocalTime.now().toString());
         });
 
         //Print textField text to file
